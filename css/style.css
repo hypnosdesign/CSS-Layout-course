@@ -18,7 +18,7 @@ a {
 
 /* ---- Layout Containers ---- */
 
-.wrapper {
+.container {
 	max-width: 70%;
 	margin: 0 auto;
 }
@@ -34,3 +34,7 @@ a {
 }
 
 /* ---- Page Elements ---- */
+
+footer {
+	text-align: center;
+}

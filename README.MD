@@ -11,3 +11,7 @@ If a div's bottom margin is larger than the top margin of the div below it, the 
 
 - Risorse:
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing
+
+## Container
+- Solitamente per centrare il contenuto, e solo quello, si applicano dei div con classe "container". Quindi si lascia invariato l'header e il footer e si centra il conuto dando alla classe container gli stessi valori dati precedentemente al wrapper. In questo caso il wrapper va eliminato. Il footer, se non contiene elementi complessi, come altri div, può non avere il suo container, basta solo dare un allineamente del testo centrale.
+ 
