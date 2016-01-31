@@ -86,4 +86,12 @@ footer {
 		margin: 0 auto;
 	}
 
+	.col {
+		display: inline-block;
+		width: 50%;
+		margin-right: -4px;
+		vertical-align: top;
+		padding: 0 1em; 
+	}
+
 }
