@@ -26,6 +26,10 @@ a {
 	margin: 2px 0;
 }
 
+.secondary img {
+	max-width: 100%;
+}
+
 /* ================================= 
   Base Layout Styles
 ==================================== */
@@ -86,12 +90,21 @@ footer {
 		margin: 0 auto;
 	}
 
-	.col {
+	.secondary img {
+	max-width: 100%;
+	border: 1px solid #ccc;
+	padding: 9px;
+	float: left;
+	width: 250px;
+	margin: 8px 12px 12px 0;
+	}
+
+/*	.col {
 		display: inline-block;
 		width: 50%;
 		margin-right: -4px;
 		vertical-align: top;
 		padding: 0 1em; 
-	}
+	}*/
 
 }
