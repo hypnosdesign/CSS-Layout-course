@@ -107,4 +107,34 @@ footer {
 		padding: 0 1em; 
 	}*/
 
+	.col {
+		float: left;
+		margin: 2.5%;
+	}
+
+	.primary {
+		width: 35%;
+	}
+
+	.secondary {
+		width: 55%;
+	}
+
+	.cf:before,
+	.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+	}
+
+	.cf:after {
+	    clear: both;
+	}
+
+	/**
+	 * For IE 6/7 only
+	 * Include this rule to trigger hasLayout and contain floats.
+	 */
+	.cf {
+	    *zoom: 1;
+	}
 }
