@@ -426,16 +426,16 @@ th {
   padding: 0;
 }
 
-
-/* CUSTOM
+/* Lists
    ========================================================================== */
 
 /**
- * Remove personal styles.
+ * Remove default list styles, margins and padding.
  */
 
- ul, ol {
-  padding: 0;
+ ol, 
+ ul {
   margin: 0;
+  padding: 0;
   list-style: none;
- }
+}
