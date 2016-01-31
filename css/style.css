@@ -13,8 +13,16 @@ body {
 
 
 a { 
-	color: #fff;
+	color: #3acec2;
 	text-decoration: none;
+}
+
+.main-nav li, .name {
+	background-color: #fff;
+	border-radius: 4px;
+	text-align: center;
+	padding: 3px 0;
+	margin: 3px 0;
 }
 
 /* ================================= 
@@ -48,9 +56,27 @@ footer {
 ==================================== */
 
 @media (min-width: 769px){
+	
+	.main-nav li, .name, .main-nav {
+	background-color: #fff;
+	border-radius: 4px;
+	text-align: center;
+	display: inline;
+	}
+
+	.name {
+		margin-right: 30px;
+	}
+
+	.main-nav a {
+		margin-right: 10px;
+	}
+
+
 	.wrap {
 		min-height: calc(100vh - 89px);
 	} 
+
 	.container {
 		width: 70%;
 		max-width: 1000px;
