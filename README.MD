@@ -14,4 +14,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_
 
 ## Container
 - Solitamente per centrare il contenuto, e solo quello, si applicano dei div con classe "container". Quindi si lascia invariato l'header e il footer e si centra il conuto dando alla classe container gli stessi valori dati precedentemente al wrapper. In questo caso il wrapper va eliminato. Il footer, se non contiene elementi complessi, come altri div, può non avere il suo container, basta solo dare un allineamente del testo centrale.
- 
+
+## Mobile first Approach
+
+- Si scrive prima lo stile css per il mobile con le media queries si va ad modificare il layout per il desktop. In questa lezione abbiamo sotituito i valori del container con del padding per la versione mobile, e messo quei valori in una media queries di 769px. Alla fine abiamo utilizzato il selettore universale (*) per dare a tutti gli elementi la proprietà box-sizing con valore border-box, questo per evitare che il padding aggoiunto precedentemente andasse a vanificare il break di 769px della media quesries. Infatti senza questa proprietà il padding viene aggiunto alla larghezza del container.
